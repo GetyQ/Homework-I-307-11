@@ -16,11 +16,11 @@ namespace Calc
             Dynamic_Array.GetDynamicArray(array);
             while (true)
             {
-               Console.WriteLine("Номер операции?\n1 - plus\n2 - minus\n3 - multiply\n4 - divide\n5 - procent\n6 - deprocent\n7 - factorial\n8 - max\n9 - min\n10 - count");
-                int check_why_operation = Convert.ToInt32(Console.ReadLine());
+               Console.WriteLine("Номер операции?\n1 - plus\n2 - minus\n3 - multiply\n4 - divide\n5 - max\n6 - min\n7 - factorial\n8 - procent\n9 - deprocent\n10 - count");
+                int operations = Convert.ToInt32(Console.ReadLine());
                 double result = 0;
                 double x = 0, y = 0;
-                switch (check_why_operation)
+                switch (operations)
                 {
                     case 0:
                         return;
@@ -69,6 +69,10 @@ namespace Calc
                         y = Convert.ToDouble(Console.ReadLine());
                         result = math.deprecent(x, y);
                         Console.WriteLine(result);
+                        break;
+                    case 10:
+                        result = math.count(array.ToArray());
+                        Console.WriteLine();
                         break;
                 }
                }
