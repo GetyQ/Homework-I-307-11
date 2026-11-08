@@ -92,6 +92,7 @@
             button3.TabIndex = 4;
             button3.Text = "C";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += this.button3_Click;
             // 
             // button4
             // 
@@ -101,6 +102,7 @@
             button4.TabIndex = 5;
             button4.Text = "±";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
@@ -110,6 +112,7 @@
             button5.TabIndex = 6;
             button5.Text = "√";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button6
             // 
@@ -119,6 +122,7 @@
             button6.TabIndex = 7;
             button6.Text = "7";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += this.button6_Click;
             // 
             // button7
             // 
@@ -128,6 +132,7 @@
             button7.TabIndex = 8;
             button7.Text = "8";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += this.button7_Click;
             // 
             // button8
             // 
@@ -137,6 +142,7 @@
             button8.TabIndex = 9;
             button8.Text = "9";
             button8.UseVisualStyleBackColor = true;
+            button8.Click += this.button8_Click;
             // 
             // button9
             // 
@@ -146,6 +152,7 @@
             button9.TabIndex = 10;
             button9.Text = "/";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += this.button9_Click;
             // 
             // button10
             // 
@@ -155,6 +162,7 @@
             button10.TabIndex = 11;
             button10.Text = "%";
             button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
             // 
             // button11
             // 
@@ -164,6 +172,7 @@
             button11.TabIndex = 12;
             button11.Text = "4";
             button11.UseVisualStyleBackColor = true;
+            button11.Click += this.button11_Click;
             // 
             // button12
             // 
@@ -173,6 +182,7 @@
             button12.TabIndex = 13;
             button12.Text = "5";
             button12.UseVisualStyleBackColor = true;
+            button12.Click += this.button12_Click;
             // 
             // button13
             // 
@@ -182,6 +192,7 @@
             button13.TabIndex = 14;
             button13.Text = "6";
             button13.UseVisualStyleBackColor = true;
+            button13.Click += this.button13_Click;
             // 
             // button14
             // 
@@ -191,6 +202,7 @@
             button14.TabIndex = 15;
             button14.Text = "1";
             button14.UseVisualStyleBackColor = true;
+            button14.Click += this.button14_Click;
             // 
             // button15
             // 
@@ -200,6 +212,7 @@
             button15.TabIndex = 16;
             button15.Text = "2";
             button15.UseVisualStyleBackColor = true;
+            button15.Click += this.button15_Click;
             // 
             // button16
             // 
@@ -209,6 +222,7 @@
             button16.TabIndex = 17;
             button16.Text = "3";
             button16.UseVisualStyleBackColor = true;
+            button16.Click += this.button16_Click;
             // 
             // button17
             // 
@@ -227,6 +241,7 @@
             button18.TabIndex = 19;
             button18.Text = "-";
             button18.UseVisualStyleBackColor = true;
+            button18.Click += this.button18_Click;
             // 
             // button19
             // 
@@ -236,6 +251,7 @@
             button19.TabIndex = 20;
             button19.Text = "+";
             button19.UseVisualStyleBackColor = true;
+            button19.Click += this.button19_Click;
             // 
             // button20
             // 
@@ -245,6 +261,7 @@
             button20.TabIndex = 21;
             button20.Text = "0";
             button20.UseVisualStyleBackColor = true;
+            button20.Click += this.button20_Click;
             // 
             // button21
             // 
@@ -264,6 +281,7 @@
             button22.TabIndex = 23;
             button22.Text = "1/x";
             button22.UseVisualStyleBackColor = true;
+            button22.Click += button22_Click;
             // 
             // button23
             // 
@@ -273,6 +291,7 @@
             button23.TabIndex = 24;
             button23.Text = "=";
             button23.UseVisualStyleBackColor = true;
+            button23.Click += this.button23_Click;
             // 
             // Calculator
             // 
@@ -311,29 +330,29 @@
 
         #endregion
 
-        private Button button1;
-        private TextBox textBox1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
-        private Button button13;
-        private Button button14;
-        private Button button15;
-        private Button button16;
-        private Button button17;
-        private Button button18;
-        private Button button19;
-        private Button button20;
-        private Button button21;
-        private Button button22;
-        private Button button23;
+        public Button button1;
+        public TextBox textBox1;
+        public Button button2;
+        public Button button3;
+        public Button button4;
+        public Button button5;
+        public Button button6;
+        public Button button7;
+        public Button button8;
+        public Button button9;
+        public Button button10;
+        public Button button11;
+        public Button button12;
+        public Button button13;
+        public Button button14;
+        public Button button15;
+        public Button button16;
+        public Button button17;
+        public Button button18;
+        public Button button19;
+        public Button button20;
+        public Button button21;
+        public Button button22;
+        public Button button23;
     }
 }
