@@ -1,6 +1,6 @@
 ﻿namespace Lesson4._1
 {
-    partial class Form1
+    partial class Notepad
     {
         /// <summary>
         /// Required designer variable.

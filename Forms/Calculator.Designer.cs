@@ -1,6 +1,6 @@
 ﻿namespace Forms
 {
-    partial class Form2
+    partial class Calculator
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,6 @@
         {
             button1 = new Button();
             textBox1 = new TextBox();
-            menuStrip1 = new MenuStrip();
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
@@ -71,15 +70,9 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(186, 23);
             textBox1.TabIndex = 1;
+            textBox1.Text = "0";
+            textBox1.TextAlign = HorizontalAlignment.Right;
             textBox1.TextChanged += textBox1_TextChanged;
-            // 
-            // menuStrip1
-            // 
-            menuStrip1.Location = new Point(0, 0);
-            menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(200, 24);
-            menuStrip1.TabIndex = 2;
-            menuStrip1.Text = "menuStrip1";
             // 
             // button2
             // 
@@ -281,7 +274,7 @@
             button23.Text = "=";
             button23.UseVisualStyleBackColor = true;
             // 
-            // Form2
+            // Calculator
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -310,10 +303,8 @@
             Controls.Add(button2);
             Controls.Add(textBox1);
             Controls.Add(button1);
-            Controls.Add(menuStrip1);
-            MainMenuStrip = menuStrip1;
-            Name = "Form2";
-            Text = "Form2";
+            Name = "Calculator";
+            Text = "Calculator";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -322,7 +313,6 @@
 
         private Button button1;
         private TextBox textBox1;
-        private MenuStrip menuStrip1;
         private Button button2;
         private Button button3;
         private Button button4;
