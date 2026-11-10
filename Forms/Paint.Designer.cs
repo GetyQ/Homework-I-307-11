@@ -65,6 +65,9 @@
             эскизToolStripMenuItem = new ToolStripMenuItem();
             panel1 = new Panel();
             panel6 = new Panel();
+            button73 = new Button();
+            button72 = new Button();
+            button71 = new Button();
             panel10 = new Panel();
             tableLayoutPanel1 = new TableLayoutPanel();
             button69 = new Button();
@@ -154,9 +157,6 @@
             label6 = new Label();
             splitter1 = new Splitter();
             textBox1 = new TextBox();
-            button71 = new Button();
-            button72 = new Button();
-            button73 = new Button();
             menuStrip1.SuspendLayout();
             panel1.SuspendLayout();
             panel6.SuspendLayout();
@@ -412,6 +412,33 @@
             panel6.Name = "panel6";
             panel6.Size = new Size(242, 155);
             panel6.TabIndex = 4;
+            // 
+            // button73
+            // 
+            button73.Image = (Image)resources.GetObject("button73.Image");
+            button73.Location = new Point(213, 25);
+            button73.Name = "button73";
+            button73.Size = new Size(26, 24);
+            button73.TabIndex = 9;
+            button73.UseVisualStyleBackColor = true;
+            // 
+            // button72
+            // 
+            button72.Image = (Image)resources.GetObject("button72.Image");
+            button72.Location = new Point(189, 46);
+            button72.Name = "button72";
+            button72.Size = new Size(21, 26);
+            button72.TabIndex = 8;
+            button72.UseVisualStyleBackColor = true;
+            // 
+            // button71
+            // 
+            button71.Image = (Image)resources.GetObject("button71.Image");
+            button71.Location = new Point(189, 8);
+            button71.Name = "button71";
+            button71.Size = new Size(21, 23);
+            button71.TabIndex = 7;
+            button71.UseVisualStyleBackColor = true;
             // 
             // panel10
             // 
@@ -1282,34 +1309,7 @@
             textBox1.Size = new Size(1243, 448);
             textBox1.TabIndex = 6;
             // 
-            // button71
-            // 
-            button71.Image = (Image)resources.GetObject("button71.Image");
-            button71.Location = new Point(189, 8);
-            button71.Name = "button71";
-            button71.Size = new Size(21, 23);
-            button71.TabIndex = 7;
-            button71.UseVisualStyleBackColor = true;
-            // 
-            // button72
-            // 
-            button72.Image = (Image)resources.GetObject("button72.Image");
-            button72.Location = new Point(189, 46);
-            button72.Name = "button72";
-            button72.Size = new Size(21, 26);
-            button72.TabIndex = 8;
-            button72.UseVisualStyleBackColor = true;
-            // 
-            // button73
-            // 
-            button73.Image = (Image)resources.GetObject("button73.Image");
-            button73.Location = new Point(213, 25);
-            button73.Name = "button73";
-            button73.Size = new Size(26, 24);
-            button73.TabIndex = 9;
-            button73.UseVisualStyleBackColor = true;
-            // 
-            // Form3
+            // Paint
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -1319,8 +1319,8 @@
             Controls.Add(splitter1);
             Controls.Add(panel1);
             Controls.Add(menuStrip1);
-            Name = "Form3";
-            Text = "Form3";
+            Name = "Paint";
+            Text = "Paint";
             Load += Form3_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
